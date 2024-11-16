@@ -5,5 +5,5 @@ celery
 redis
 groq
 requests
-SQLAlchem
+SQLAlchemy
 pydantic-settings

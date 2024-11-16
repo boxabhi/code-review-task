@@ -5,6 +5,7 @@ from app.models.task_result import get_task_result
 from pydantic import BaseModel, HttpUrl
 from typing import Optional
 
+
 router = APIRouter()
 
 class AnalyzePRRequest(BaseModel):

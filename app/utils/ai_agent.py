@@ -36,7 +36,7 @@ def analyze_code_with_llm(file_content, file_name):
     """
 
     client = Groq(
-        api_key="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"
+        api_key="API-key"
     )
     completion = client.chat.completions.create(
         model="llama3-8b-8192",
