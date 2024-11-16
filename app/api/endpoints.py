@@ -8,7 +8,7 @@ from typing import Optional
 router = APIRouter()
 
 class AnalyzePRRequest(BaseModel):
-    repo_url: HttpUrl
+    repo_url: str
     pr_number: int
     github_token: Optional[str] = None
 

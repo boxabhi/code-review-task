@@ -1,0 +1,9 @@
+fastapi
+pydantic
+uvicorn
+celery
+redis
+groq
+requests
+SQLAlchem
+pydantic-settings
